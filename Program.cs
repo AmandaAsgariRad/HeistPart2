@@ -69,10 +69,13 @@ namespace Group_HeistPt2
 
             heistBank.ReconReport();
             Console.WriteLine();
-            rolodexReport(rolodex);
+
+            List<IRobber> crew = new List<IRobber>();
+            rolodexReport(rolodex, crew);
+
 
         }
-        public static void rolodexReport(List<IRobber> rolodex)
+        public static void rolodexReport(List<IRobber> rolodex, List<IRobber> crew)
         {
             Console.WriteLine("ROLODEX REPORT");
             Console.WriteLine("-------------");
@@ -80,7 +83,13 @@ namespace Group_HeistPt2
             {
                 Console.WriteLine($"Index: {i} | Name: {rolodex[i].Name} | Skill: {rolodex[i].GetType().Name} | Skill Level: {rolodex[i].SkillLevel} | Percentage Cut: {rolodex[i].PercentageCut}");
             }
+            Console.WriteLine("Enter the index?: ");
+            int selectedMember = int.Parse(Console.ReadLine());
+            crew.Add(rolodex[selectedMember]);
+            rolodex.Remove(rolodex[selectedMember]);
         }
+
+
 
 
     }

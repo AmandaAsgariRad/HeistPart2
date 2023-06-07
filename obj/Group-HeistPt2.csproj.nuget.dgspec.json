@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {}
+    "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {
+    "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
+        "projectUniqueName": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
         "projectName": "Group-HeistPt2",
-        "projectPath": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
-        "packagesPath": "C:\\Users\\lekee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\obj\\",
+        "projectPath": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
+        "packagesPath": "C:\\Users\\Amanda Asgari-Rad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lekee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amanda Asgari-Rad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
