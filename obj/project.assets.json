@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alexdeanb\\.nuget\\packages\\": {}
+    "C:\\Users\\lekee\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
+      "projectUniqueName": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
       "projectName": "Group-HeistPt2",
-      "projectPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
-      "packagesPath": "C:\\Users\\alexdeanb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\obj\\",
+      "projectPath": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
+      "packagesPath": "C:\\Users\\lekee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lekee\\workspace\\csharp\\Group-Heist-Pt2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alexdeanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lekee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

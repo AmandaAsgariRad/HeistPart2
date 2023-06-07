@@ -22,6 +22,8 @@ namespace Group_HeistPt2
             Console.WriteLine($"{rolodex.Count} potential recruits in the rolodex.");
             while (!fullRolodex)
             {
+                Console.WriteLine("NEW MEMBER");
+                Console.WriteLine("-------------");
                 Console.WriteLine("Enter new recruit's name:");
                 string name = Console.ReadLine();
                 if (name == "")
@@ -66,10 +68,19 @@ namespace Group_HeistPt2
             heistBank.CashOnHand = r.Next(50000, 1000001);
 
             heistBank.ReconReport();
-
+            Console.WriteLine();
+            rolodexReport(rolodex);
 
         }
-
+        public static void rolodexReport(List<IRobber> rolodex)
+        {
+            Console.WriteLine("ROLODEX REPORT");
+            Console.WriteLine("-------------");
+            for (int i = 0; i < rolodex.Count; i++)
+            {
+                Console.WriteLine($"Index: {i} | Name: {rolodex[i].Name} | Skill: {rolodex[i].GetType().Name} | Skill Level: {rolodex[i].SkillLevel} | Percentage Cut: {rolodex[i].PercentageCut}");
+            }
+        }
 
 
     }
