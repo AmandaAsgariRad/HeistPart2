@@ -52,7 +52,7 @@ namespace Group_HeistPt2
                 }
                 else
                 {
-                    Console.WriteLine("Recruit creation failed. Try again with a 1, 2 or 3 as the specialty");
+                    Console.WriteLine("Recruit creation failed. Try again with a 1, 2 or 3 as the specialty!!!!!!");
                 }
                 Console.WriteLine($"{rolodex.Count} potential recruits in the rolodex.");
 
