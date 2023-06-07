@@ -57,6 +57,20 @@ namespace Group_HeistPt2
                 Console.WriteLine($"{rolodex.Count} potential recruits in the rolodex.");
 
             }
+
+            Bank heistBank = new Bank();
+            Random r = new Random();
+            heistBank.AlarmScore = r.Next(0, 101);
+            heistBank.VaultScore = r.Next(0, 101);
+            heistBank.SecurityGuardScore = r.Next(0, 101);
+            heistBank.CashOnHand = r.Next(50000, 1000001);
+
+            heistBank.ReconReport();
+
+
         }
+
+
+
     }
 }

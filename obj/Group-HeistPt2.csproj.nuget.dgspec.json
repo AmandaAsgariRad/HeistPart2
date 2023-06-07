@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nic\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {}
+    "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nic\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj": {
+    "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nic\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
+        "projectUniqueName": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
         "projectName": "Group-HeistPt2",
-        "projectPath": "C:\\Users\\Nic\\workspace\\csharp\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
-        "packagesPath": "C:\\Users\\Nic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nic\\workspace\\csharp\\Group-Heist-Pt2\\obj\\",
+        "projectPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
+        "packagesPath": "C:\\Users\\alexdeanb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexdeanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
