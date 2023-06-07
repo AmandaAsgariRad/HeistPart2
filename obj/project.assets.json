@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Amanda Asgari-Rad\\.nuget\\packages\\": {}
+    "C:\\Users\\alexdeanb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
+      "projectUniqueName": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
       "projectName": "Group-HeistPt2",
-      "projectPath": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\Group-HeistPt2.csproj",
-      "packagesPath": "C:\\Users\\Amanda Asgari-Rad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amanda Asgari-Rad\\workspace\\Group-Heist-Pt2\\obj\\",
+      "projectPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\Group-HeistPt2.csproj",
+      "packagesPath": "C:\\Users\\alexdeanb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexdeanb\\workspace\\csharp\\Group-HeistPt2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Amanda Asgari-Rad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexdeanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

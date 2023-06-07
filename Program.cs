@@ -71,22 +71,44 @@ namespace Group_HeistPt2
             Console.WriteLine();
 
             List<IRobber> crew = new List<IRobber>();
-            rolodexReport(rolodex, crew);
+            int myCut = 100;
+
+            rolodexReport(rolodex, crew, myCut);
+
 
 
         }
-        public static void rolodexReport(List<IRobber> rolodex, List<IRobber> crew)
+        public static void rolodexReport(List<IRobber> rolodex, List<IRobber> crew, int myCut)
         {
-            Console.WriteLine("ROLODEX REPORT");
-            Console.WriteLine("-------------");
-            for (int i = 0; i < rolodex.Count; i++)
+            while (myCut > 0)
             {
-                Console.WriteLine($"Index: {i} | Name: {rolodex[i].Name} | Skill: {rolodex[i].GetType().Name} | Skill Level: {rolodex[i].SkillLevel} | Percentage Cut: {rolodex[i].PercentageCut}");
+                Console.WriteLine("ROLODEX REPORT");
+                Console.WriteLine("-------------");
+                for (int i = 0; i < rolodex.Count; i++)
+                {
+                    if (myCut - rolodex[i].PercentageCut >= 0)
+                    {
+                        Console.WriteLine($"Index: {i} | Name: {rolodex[i].Name} | Skill: {rolodex[i].GetType().Name} | Skill Level: {rolodex[i].SkillLevel} | Percentage Cut: {rolodex[i].PercentageCut}");
+                    }
+                }
+                Console.WriteLine();
+                Console.WriteLine("ADD A MEMBER TO CREW");
+                Console.WriteLine("Enter their index?: ");
+                string selectedValue = Console.ReadLine();
+                if (selectedValue == "")
+                {
+                    break;
+                }
+                int selectedMember = int.Parse(selectedValue);
+
+                myCut -= rolodex[selectedMember].PercentageCut;
+
+                crew.Add(rolodex[selectedMember]);
+                rolodex.Remove(rolodex[selectedMember]);
+                Console.WriteLine($"{crew.Count} members recruited. {myCut} percent of the take is left for you.");
+                Console.WriteLine();
             }
-            Console.WriteLine("Enter the index?: ");
-            int selectedMember = int.Parse(Console.ReadLine());
-            crew.Add(rolodex[selectedMember]);
-            rolodex.Remove(rolodex[selectedMember]);
+
         }
 
 
