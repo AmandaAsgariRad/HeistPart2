@@ -13,6 +13,7 @@ namespace Group_HeistPt2
         {
             get
             {
+                //return false if the system's are all disabled.
                 return AlarmScore > 0 || VaultScore > 0 || SecurityGuardScore > 0;
             }
         }
